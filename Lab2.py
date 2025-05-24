@@ -7,7 +7,7 @@ def get_user_input():
     print("input: ")
     numbers=input()
     x=numbers.split(",")
-    y=list(map(int, x))
+    y=list(map(float, x))
     return y
 
 
